@@ -30,8 +30,12 @@ body {
   gap: 16px;
   padding: 18px 26px;
   color: #fff;
-  position: relative;
+  background: linear-gradient(87deg, #5e72e4 0%, #825ee4 100%);
+  position: sticky;
+  top: 0;
   z-index: 300;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 24px rgba(10, 10, 40, .18);
 }
 .nav-tight {
   padding-left: 40px;
