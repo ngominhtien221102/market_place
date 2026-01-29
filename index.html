@@ -3,21 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LynkLand</title>
+  <title>LynkMarket</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="full-bleed">
   <div class="nav-blue">
     <div class="brand">
-      <a class="brand-link" href="index.html">LynkLand</a>
+      <a class="brand-link" href="index.html">LynkMarket</a>
     </div>
     <div class="nav-items">
       <a class="nav-link" href="mua-ban-nha-dat.html">Mua bán nhà đất</a>
-      <div>Cho thuê nhà đất</div>
+      <a class="nav-link" href="mua-ban-xe.html">Mua bán xe ô tô</a>
     </div>
     <div class="nav-right">
       <div>Đăng nhập / Đăng ký</div>
-      <a class="btn-outline" href="dang-tin.html">+ Đăng tin</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle">Đăng tin ▾</button>
+        <div class="dropdown-menu">
+          <a href="dang-tin.html">Đăng tin nhà/đất</a>
+          <a href="dang-tin-dong-san.html">Đăng tin xe ô tô</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -123,6 +129,47 @@
 
       <div class="home-section">
         <div class="section-header">
+          <h2>Mua bán xe ô tô nổi bật</h2>
+          <a class="link-muted" href="mua-ban-xe.html">Xem tất cả</a>
+        </div>
+        <div class="auto-grid">
+          <div class="auto-card">
+            <img src="assets/bmw.jpg" alt="BMW 320i" />
+            <div class="auto-body">
+              <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">BMW 320i 2019</a></div>
+              <div class="auto-meta">96,000 km • Tự động</div>
+              <div class="auto-price">1,15 tỷ</div>
+            </div>
+          </div>
+          <div class="auto-card">
+            <img src="assets/crv.jpg" alt="Honda CR-V" />
+            <div class="auto-body">
+              <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">Honda CR-V 2020</a></div>
+              <div class="auto-meta">38,000 km • Máy xăng</div>
+              <div class="auto-price">915 triệu</div>
+            </div>
+          </div>
+          <div class="auto-card">
+            <img src="assets/merc.jpg" alt="Mercedes C200" />
+            <div class="auto-body">
+              <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">Mercedes C200 2021</a></div>
+              <div class="auto-meta">20,500 km • Tự động</div>
+              <div class="auto-price">1,48 tỷ</div>
+            </div>
+          </div>
+          <div class="auto-card">
+            <img src="assets/vinfast.jpg" alt="VinFast VF8" />
+            <div class="auto-body">
+              <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">VinFast VF8 2023</a></div>
+              <div class="auto-meta">12,000 km • Xe điện</div>
+              <div class="auto-price">1,05 tỷ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-section">
+        <div class="section-header">
           <h2>Tin nổi bật</h2>
           <div class="tabs">
             <button class="tab active">Mới nhất</button>
@@ -165,4 +212,8 @@
   <script src='script.js'></script>
 </body>
 </html>
+
+
+
+
 
