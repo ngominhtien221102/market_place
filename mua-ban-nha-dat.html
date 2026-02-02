@@ -1,142 +1,357 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="vi">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LynkMarket</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LynkMarket</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body class="full-bleed">
-  <div class="nav-blue">
-    <div class="brand">
-      <a class="brand-link" href="index.html">LynkMarket</a>
-    </div>
-    <div class="nav-items">
-      <a class="nav-link" href="mua-ban-nha-dat.html">Mua bán nhà đất</a>
-    </div>
-    <div class="nav-right">
-      <div>Đăng nhập / Đăng ký</div>
-      <div class="dropdown">
-        <button class="dropdown-toggle">Đăng tin ▾</button>
-        <div class="dropdown-menu">
-          <a href="dang-tin.html">Đăng tin nhà/đất</a>
-          <a href="dang-tin-dong-san.html">Đăng tin xe ô tô</a>
+    <div class="nav-blue">
+        <div class="brand">
+            <a class="brand-link" href="index.html">LynkMarket</a>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <section class="hero-blue">
-    <div class="hero-grid">
-      <div>
-        <h1 class="hero-title">Mua bán nhà đất toàn quốc</h1>
-        <div class="search-box">
-          <div class="search-loc">TP.HCM</div>
-          <input type="text" placeholder="Nhập vị trí, dự án, quận..." />
-          <div class="search-action">🔍</div>
+        <div class="nav-items">
+            <a class="nav-link" href="mua-ban-nha-dat.html">Mua bán nhà đất</a>
+            <a class="nav-link" href="mua-ban-xe.html">Mua bán xe ô
+                tô</a>
         </div>
-        <div class="chip-row">
-          <span class="chip">Nhà phố</span>
-          <span class="chip">Căn hộ</span>
-          <span class="chip">Đất nền</span>
-          <span class="chip">Biệt thự</span>
-          <span class="chip">Shophouse</span>
-        </div>
-      </div>
-      <div class="stats-card">
-        <div style="font-weight:700;">Thị trường hôm nay: 28/01/2026</div>
-        <div class="stats-row">
-          <div>Tin đang hiệu lực: 207.438</div>
-          <div>Tin mới hôm nay: 6.286</div>
-        </div>
-        <div class="stats-divider"></div>
-        <div style="font-weight:700;">Nhu cầu tìm kiếm</div>
-        <div class="mini-chart">
-          <div class="mini-bar" style="height:78%"></div>
-          <div class="mini-bar" style="height:52%"></div>
-          <div class="mini-bar" style="height:46%"></div>
-          <div class="mini-bar" style="height:26%"></div>
-          <div class="mini-bar" style="height:18%"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="listing-shell">
-    <div class="listing-top">
-      <div class="filter-grid">
-        <input type="text" placeholder="Tỉnh/Thành" />
-        <input type="text" placeholder="Quận/Huyện" />
-        <input type="text" placeholder="Khoảng giá" />
-        <input type="text" placeholder="Diện tích" />
-        <input type="text" placeholder="Số phòng" />
-      </div>
-    </div>
-
-    <div class="list-layout">
-      <div class="list-left">
-        <div class="list-card">
-          <img src="assets/house.jpg" alt="Nhà phố" />
-          <div>
-          <div class="list-title"><a class="list-link" href="bds-chi-tiet.html">Nhà phố Nguyễn Huệ, trung tâm Q1</a></div>
-            <div class="list-meta">120m² • 2 tầng • Hướng Đông</div>
-            <div class="list-price">45,2 tỷ</div>
-            <div class="list-badges">
-              <span class="chip">Sổ hồng</span>
-              <span class="chip">Gần metro</span>
+        <div class="nav-right">
+            <div>Đăng nhập / Đăng ký</div>
+            <div class="dropdown">
+                <button class="dropdown-toggle">Đăng tin ▾</button>
+                <div class="dropdown-menu">
+                    <a href="dang-tin.html">Đăng tin nhà/đất</a>
+                    <a href="dang-tin-dong-san.html">Đăng tin xe ô tô</a>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="list-card" style="margin-top:14px;">
-          <img src="assets/apartment.jpg" alt="Căn hộ" />
-          <div>
-          <div class="list-title"><a class="list-link" href="bds-chi-tiet.html">Căn hộ cao cấp Q7, view sông</a></div>
-            <div class="list-meta">92m² • 2PN • Full nội thất</div>
-            <div class="list-price">6,8 tỷ</div>
-            <div class="list-badges">
-              <span class="chip">Xác thực</span>
-              <span class="chip">Giá tốt</span>
-            </div>
-          </div>
-        </div>
-        <div class="list-card" style="margin-top:14px;">
-          <img src="assets/house.jpg" alt="Nhà vườn" />
-          <div>
-          <div class="list-title"><a class="list-link" href="bds-chi-tiet.html">Nhà vườn Thủ Đức, yên tĩnh</a></div>
-            <div class="list-meta">200m² • 3PN • Sân vườn</div>
-            <div class="list-price">12,5 tỷ</div>
-            <div class="list-badges">
-              <span class="chip">Giá tốt</span>
-              <span class="chip">Chính chủ</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <aside class="list-right">
-        <div class="aside-card">
-          <h4>Bộ lọc nhanh</h4>
-          <div class="chip-row">
-            <span class="chip">Dưới 3 tỷ</span>
-            <span class="chip">3-7 tỷ</span>
-            <span class="chip">Trên 10 tỷ</span>
-            <span class="chip">Có sổ</span>
-          </div>
-        </div>
-        <div class="aside-card" style="margin-top:12px;">
-          <h4>Tư vấn LynkMarket</h4>
-          <div class="small">Nhận tư vấn miễn phí trong 5 phút.</div>
-          <button class="btn cta-full">Liên hệ ngay</button>
-        </div>
-      </aside>
     </div>
-  </section>
 
-  <script src="script.js"></script>
+    <section class="hero-blue">
+        <div class="hero-grid" style="display: block;">
+            <!-- Row 1: Title only -->
+            <div style="margin-bottom: 24px;">
+                <h1 class="hero-title">Sàn giao dịch bất động sản xác thực 4.0</h1>
+            </div>
+            <!-- Row 2: Search + Banner + Tra cứu quy hoạch -->
+            <div style="display: flex; gap: 24px; align-items: stretch; max-height: 332px;">
+                <!-- Left column: Search + Banner -->
+                <div style="flex: 2; display: flex; flex-direction: column; gap: 12px;">
+                    <div class="search-box">
+                        <div class="search-loc">Hà Nội</div>
+                        <input type="text" placeholder="Bán nhà mặt phố" />
+                        <div class="search-action">🔍</div>
+                    </div>
+                    <div class="banner-mock"
+                        style="flex: 1; margin: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: 16px; max-height: 237px;">
+                        <img src="assets/infor-index.webp" alt="Cổng thông tin xác thực"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;" />
+                    </div>
+                </div>
+                <!-- Right column: Tra cứu quy hoạch -->
+                <div class="stats-card" style="flex: 1; max-height: 332px;">
+                    <div class="plan-head" style="color: white;">
+                        <span class="plan-icon">◎</span>
+                        <strong style="color: white;">Tra cứu quy hoạch</strong>
+                    </div>
+                    <div class="plan-sub" style="color: white;">Miễn phí 24h tra cứu khi đăng ký tài khoản</div>
+                    <div class="plan-map">
+                        <img src="assets/tra-cuu-quy-hoach.jpg" alt="Bản đồ quy hoạch" />
+                        <div class="plan-pin">69 m²</div>
+                    </div>
+                    <button class="btn plan-btn" onclick="openVideoPopup()">Tra cứu ngay</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="home-wrap">
+        <div class="page">
+            <div class="home-section">
+                <div style="display: flex; gap: 24px; align-items: stretch;">
+                    <div class="plan-card"
+                        style="width: 66%; max-width: none; flex-shrink: 0; display: flex; flex-direction: column; padding: 0; overflow: hidden;">
+                        <img src="assets/dinh-gia-bat-dong-san.png" alt="Định giá bất động sản"
+                            style="width: 100%; flex: 1; object-fit: cover; display: block; min-height: 0;" />
+                        <div style="padding: 16px; background: white; text-align: center; flex-shrink: 0;">
+                            <a href="https://test-org03.lynkid.vn/house_property/ui/" target="_blank"
+                                class="btn plan-btn" style="display: inline-block; width: auto; padding: 12px 32px;">
+                                Truy cập ngay
+                            </a>
+                        </div>
+                    </div>
+                    <div class="plan-card"
+                        style="background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%); color: white; flex: 1;">
+                        <div style="font-weight:700; color: white;">Thị trường bất động sản hôm nay: <span
+                                id="todayDate"></span></div>
+                        <div class="stats-row" style="color: white;">
+                            <div>Tin đăng đang hiệu lực: 207.438</div>
+                            <div>Tin đăng hôm nay: 6.286</div>
+                        </div>
+                        <div class="stats-divider"></div>
+                        <div style="font-weight:700; color: white;">Thống kê tin đăng trong ngày</div>
+                        <div class="mini-chart">
+                            <div class="mini-bar" style="height:80%"></div>
+                            <div class="mini-bar" style="height:45%"></div>
+                            <div class="mini-bar" style="height:48%"></div>
+                            <div class="mini-bar" style="height:20%"></div>
+                            <div class="mini-bar" style="height:16%"></div>
+                        </div>
+                        <div class="legend" style="margin-top:10px; color: white;">
+                            <span>Nhà riêng</span>
+                            <span>Căn hộ</span>
+                            <span>Đất</span>
+                            <span>Biệt thự</span>
+                            <span>Shophouse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-section">
+                <div class="section-header">
+                    <h2>Bất động sản nổi bật</h2>
+                    <a class="link-muted" href="listings.html">Xem tất cả</a>
+                </div>
+                <div class="property-grid">
+                    <div class="property-card">
+                        <img src="assets/house.jpg" alt="Nhà phố" />
+                        <div class="card-body">
+                            <div class="card-title"><a class="list-link" href="bds-chi-tiet.html">Nhà phố Nguyễn Huệ</a>
+                            </div>
+                            <div class="card-meta">120m² • Quận 1</div>
+                            <div class="card-price">45,2 tỷ</div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="assets/apartment.jpg" alt="Căn hộ" />
+                        <div class="card-body">
+                            <div class="card-title"><a class="list-link" href="bds-chi-tiet.html">Căn hộ cao cấp Q7</a>
+                            </div>
+                            <div class="card-meta">2PN • 92m²</div>
+                            <div class="card-price">6,8 tỷ</div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="assets/house.jpg" alt="Nhà vườn" />
+                        <div class="card-body">
+                            <div class="card-title">Nhà vườn Thủ Đức</div>
+                            <div class="card-meta">200m² • TP Thủ Đức</div>
+                            <div class="card-price">12,5 tỷ</div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="assets/apartment.jpg" alt="Căn hộ studio" />
+                        <div class="card-body">
+                            <div class="card-title">Studio Bình Thạnh</div>
+                            <div class="card-meta">1PN • 45m²</div>
+                            <div class="card-price">3,1 tỷ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-section">
+                <div class="section-header">
+                    <h2>Mua bán xe ô tô nổi bật</h2>
+                    <a class="link-muted" href="mua-ban-xe.html">Xem tất cả</a>
+                </div>
+                <div class="auto-grid">
+                    <div class="auto-card">
+                        <img src="assets/bmw.jpg" alt="BMW 320i" />
+                        <div class="auto-body">
+                            <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">BMW 320i 2019</a></div>
+                            <div class="auto-meta">96,000 km • Tự động</div>
+                            <div class="auto-price">1,15 tỷ</div>
+                        </div>
+                    </div>
+                    <div class="auto-card">
+                        <img src="assets/crv.jpg" alt="Honda CR-V" />
+                        <div class="auto-body">
+                            <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">Honda CR-V 2020</a>
+                            </div>
+                            <div class="auto-meta">38,000 km • Máy xăng</div>
+                            <div class="auto-price">915 triệu</div>
+                        </div>
+                    </div>
+                    <div class="auto-card">
+                        <img src="assets/merc.jpg" alt="Mercedes C200" />
+                        <div class="auto-body">
+                            <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">Mercedes C200 2021</a>
+                            </div>
+                            <div class="auto-meta">20,500 km • Tự động</div>
+                            <div class="auto-price">1,48 tỷ</div>
+                        </div>
+                    </div>
+                    <div class="auto-card">
+                        <img src="assets/vinfast.jpg" alt="VinFast VF8" />
+                        <div class="auto-body">
+                            <div class="auto-title"><a class="list-link" href="xe-chi-tiet.html">VinFast VF8 2023</a>
+                            </div>
+                            <div class="auto-meta">12,000 km • Xe điện</div>
+                            <div class="auto-price">1,05 tỷ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-section">
+                <div class="section-header">
+                    <h2>Tin nổi bật</h2>
+                    <div class="tabs">
+                        <button class="tab active">Mới nhất</button>
+                        <button class="tab">Giá tốt</button>
+                        <button class="tab">Xác thực</button>
+                    </div>
+                </div>
+                <div class="ticker">
+                    <div class="ticker-item">Căn hộ Q7 giảm 3% • 2PN • 6,6 tỷ</div>
+                    <div class="ticker-item">Nhà phố Nguyễn Huệ • 120m² • 45,2 tỷ</div>
+                    <div class="ticker-item">Đất nền Củ Chi • 500m² • 3,2 tỷ</div>
+                </div>
+            </div>
+
+            <div class="home-section">
+                <div class="section-header">
+                    <h2>Tin tức thị trường</h2>
+                    <a class="link-muted" href="#">Xem thêm</a>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-tag">Xu hướng</div>
+                        <h3>Giá căn hộ khu Đông tăng nhẹ 2,1%</h3>
+                        <p>Thị trường ghi nhận nhu cầu tăng sau Tết, đặc biệt ở phân khúc trung cấp.</p>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-tag">Phân tích</div>
+                        <h3>Đất nền ven đô sôi động trở lại</h3>
+                        <p>Nhà đầu tư quay lại nhờ hạ tầng hoàn thiện và mặt bằng giá ổn định.</p>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-tag">Mẹo hay</div>
+                        <h3>5 lưu ý khi đăng tin bán nhà hiệu quả</h3>
+                        <p>Tối ưu hình ảnh, tiêu đề, và thông tin pháp lý để tăng chuyển đổi.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Video Popup Modal -->
+    <div id="videoPopup" class="video-popup-overlay" onclick="closeVideoPopup(event)">
+        <div class="video-popup-content">
+            <button class="video-popup-close" onclick="closeVideoPopup(event)">&times;</button>
+            <video id="popupVideo" controls>
+                <source src="assets/original-C63C13E9-EF69-4303-AE1E-2C96C2C14470.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+        </div>
+    </div>
+
+    <style>
+        .video-popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-popup-overlay.active {
+            display: flex;
+        }
+
+        .video-popup-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .video-popup-content video {
+            display: block;
+            max-width: 100%;
+            max-height: 80vh;
+        }
+
+        .video-popup-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 28px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 10000;
+            transition: background 0.3s ease;
+        }
+
+        .video-popup-close:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+
+    <script>
+        function openVideoPopup() {
+            const popup = document.getElementById('videoPopup');
+            const video = document.getElementById('popupVideo');
+            popup.classList.add('active');
+            video.play();
+        }
+
+        function closeVideoPopup(event) {
+            if (event.target.classList.contains('video-popup-overlay') || event.target.classList.contains('video-popup-close')) {
+                const popup = document.getElementById('videoPopup');
+                const video = document.getElementById('popupVideo');
+                popup.classList.remove('active');
+                video.pause();
+                video.currentTime = 0;
+            }
+        }
+
+        // Close popup with Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                const popup = document.getElementById('videoPopup');
+                const video = document.getElementById('popupVideo');
+                if (popup.classList.contains('active')) {
+                    popup.classList.remove('active');
+                    video.pause();
+                    video.currentTime = 0;
+                }
+            }
+        });
+
+        // Auto update today's date
+        (function () {
+            const today = new Date();
+            const day = String(today.getDate()).padStart(2, '0');
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const year = today.getFullYear();
+            const formattedDate = `${day}/${month}/${year}`;
+            const dateElement = document.getElementById('todayDate');
+            if (dateElement) {
+                dateElement.textContent = formattedDate;
+            }
+        })();
+    </script>
+
+    <script src='script.js'></script>
 </body>
+
 </html>
-
-
-
-
-
-
